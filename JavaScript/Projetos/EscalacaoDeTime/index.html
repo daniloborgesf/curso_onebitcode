@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="script.js"></script>
+  <title>Módulo JavaScript</title>
+</head>
+
+<body>
+  <h1>Escalação de Time</h1>
+
+  <section>
+    <h2>Escalar Jogador</h2>
+    <p>
+      <label for="position">Posição: </label>
+      <input type="text" name="position" id="position" />
+    </p>
+    <p>
+      <label for="name">Nome: </label>
+      <input type="text" name="name" id="name" />
+    </p>
+    <p>
+      <label for="number">Número: </label>
+      <input type="text" name="number" id="number" />
+      <button type="button" onclick="addJogador()">Escalar</button>
+    </p>
+  </section>
+
+  <section>
+    <h2>Remover Jogador</h2>
+    <label for="numberToRemove">Número: </label>
+    <input type="text" name="numberToRemove" id="numberToRemove" />
+    <button type="button" onclick="remJogador()">Remover</button>
+  </section>
+
+  <section>
+    <h2>Escalação do Time</h2>
+    <ul id="teamList"></ul>
+  </section>
+</body>
+
+</html>

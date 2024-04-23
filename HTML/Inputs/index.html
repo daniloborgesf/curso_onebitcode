@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tipos de Inputs</title>
+</head>
+
+<body>
+  <form action="#">
+    <!-- Campo de Texto -->
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required placeholder="Ex: Danilo" />
+    <br />
+    <br />
+    <!-- Campo de Senha -->
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" required />
+    <br />
+    <br />
+    <!-- Campo de Data -->
+    <label for="dataNascimento">Data de Nascimento:</label>
+    <input type="date" id="dataNascimento" name="dataNascimento" />
+    <br />
+    <br />
+    <!-- Caixa de Seleção -->
+    <input type="checkbox" id="lembrete" name="lembrete" value="lembrete" />
+    <label for="lembrete">Lembrar-me</label>
+    <br />
+    <br />
+    <!-- Botão de Opção -->
+    <input type="radio" id="masculino" name="genero" value="masculino" />
+    <label for="masculino">Masculino</label>
+    <br />
+    <input type="radio" id="feminino" name="genero" value="feminino" />
+    <label for="feminino">Feminino</label>
+    <br />
+    <br />
+    <!-- Botão de Envio -->
+    <input type="submit" value="Enviar" />
+    <br />
+    <br />
+    <!-- Área de Texto -->
+    <label for="comentario">Comentário:</label>
+    <textarea id="comentario" name="comentario" rows="1" cols="10"></textarea>
+    <br />
+    <br />
+    <!-- Caixa de Opção -->
+    <label for="situacao">Situação Atual:</label>
+    <select name="situacao" id="situacao">
+      <option value="" selected disabled>Selecione uma opção..</option>
+      <option value="estudante">Estudante</option>
+      <option value="estagiario">Estagiário</option>
+      <option value="junior">Júnior</option>
+      <option value="pleno">Pleno</option>
+      <option value="senior">Sênior</option>
+    </select>
+  </form>
+</body>
+
+</html>

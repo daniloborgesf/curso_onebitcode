@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "Olá, Mundo!",
+      "content": "lorem ipsum dolor str",
+      "author": "Danilo"
+    },
+    {
+      "id": "2",
+      "title": "Requisição POST com JavaScript",
+      "content": "lorem ipsum dolor str",
+      "author": "Millenny"
+    },
+    {
+      "id": "6841",
+      "title": "Aprendendo JavaScript",
+      "author": "Danilo",
+      "content": "Lorem ipmsul"
+    }
+  ]
+}
