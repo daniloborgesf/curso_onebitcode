@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  color: #c00040;
+}
+
+.title {
+  height: 100vh;
+  color: white;
+  background-color: black;
+  color: color-title(black);
+}
+
+/*# sourceMappingURL=style.css.map */

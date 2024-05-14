@@ -1,0 +1,12 @@
+.text h1 {
+  color: rgb(255, 0, 0);
+  font-size: 34px;
+  font-family: bold;
+}
+.text p {
+  color: rgb(0, 0, 255);
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

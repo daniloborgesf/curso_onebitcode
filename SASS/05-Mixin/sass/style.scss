@@ -1,0 +1,21 @@
+@mixin text-style ($color, $font-size, $font-family) {
+  color: $color;
+  font-size: $font-size;
+  font-family: $font-family;
+}
+
+.text {
+  h1 {
+    // color: rgb(255, 0, 0);
+    // font-size: 34px;
+    // font-family: bold;
+    @include text-style(rgb(255, 0, 0), 34px, bold)
+  }
+
+  p {
+    // color: rgb(0, 0, 255);
+    // font-size: 22px;
+    // font-family: sans-serif;
+    @include text-style(rgb(0, 0, 255), 22px, sans-serif)
+  }
+}

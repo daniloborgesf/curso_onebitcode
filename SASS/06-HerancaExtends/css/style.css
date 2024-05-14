@@ -1,0 +1,22 @@
+.btn, .btn-azul, #btn-amarelo {
+  width: 125px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+}
+.btn.btn-roxo, .btn-roxo.btn-azul, .btn-roxo#btn-amarelo {
+  background-color: rgb(138, 43, 226);
+  color: rgb(240, 255, 255);
+}
+
+#btn-amarelo {
+  background-color: rgb(255, 255, 0);
+}
+
+.btn-azul {
+  background-color: rgb(0, 0, 255);
+  color: rgb(240, 255, 255);
+}
+
+/*# sourceMappingURL=style.css.map */
